@@ -67,7 +67,7 @@ h2 {
   font-weight: 700;
   line-height: 1.5;
   font-size: 20px;
-  padding-top: 2em;
+  padding-top: 1em;
   padding-bottom: 1em;
 }
 
@@ -83,13 +83,14 @@ h2 {
   width: 300px;
   margin: 0 auto;
   border-radius: 51% 49% 51% 49% /50% 52% 48% 50%;
-  padding-top: 2em;
 }
 
 .div2 {
   background-color: #e22d0e;
   height: 300px;
   padding-bottom: 2em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .p3 {
   font-weight: 700;
@@ -109,28 +110,29 @@ h2 {
 
 .p5 {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
+  line-height: 1.5;
 }
 
 .img1 {
   width: 403px;
-  padding-top: 2em;
 }
 
 .p6 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #393d41;
+  padding-bottom: 2em;
+  line-height: 1.5;
 }
 .img2 {
   width: 403px;
-  padding-top: 2em;
 }
 footer {
   background-color: #25a2c3;
   text-align: center;
-  height: 350px;
+  height: 300px;
 }
 footer p {
   color: #c8e7f0;
@@ -154,5 +156,23 @@ footer a {
 }
 
 .p8 {
-  padding-top: 7em;
+  padding-top: 2em;
+  font-size: smaller;
+}
+
+hr {
+  width: 150px;
+  color: #c8e7f0;
+}
+.p9 {
+  padding-bottom: 2em;
+}
+
+.container {
+  border: solid 1px #dee1e3;
+  margin: 22px;
+}
+
+i {
+  color: white;
 }
